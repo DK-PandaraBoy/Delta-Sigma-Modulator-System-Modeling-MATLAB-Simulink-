@@ -1,1 +1,16 @@
+# MATLAB
+*.asv
+*.slxc
+*.slx
+*.mexa64
+*.mexw64
+*.mexmaci64
+*.mltbx
+*.log
+*.zip
+*.csv
 
+
+# OS
+.DS_Store
+Thumbs.db
