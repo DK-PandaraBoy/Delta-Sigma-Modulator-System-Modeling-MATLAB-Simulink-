@@ -16,7 +16,34 @@ Small modular MATLAB/Simulink toolbox for current-mode ΔΣ modulators (1st–3r
 
 
 ## Structure
-See repository tree in repository root.
+delta-sigma-modulator-toolbox/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── setup.m
+├── scripts/
+│ ├── run_all.m
+│ └── run_example.m
+├── src/
+│ ├── blocks/
+│ │ ├── cm_integrator.m
+│ │ ├── quantizer_block.m
+│ │ ├── feedback_dac.m
+│ │ └── noise_source.m
+│ ├── builder/
+│ │ └── build_modulator_model.m
+│ ├── sweeps/
+│ │ ├── sweep_osr_q.m
+│ │ └── analyze_results.m
+│ └── utils/
+│ ├── compute_snr_enob.m
+│ └── save_results_csv.m
+├── examples/
+│ └── example_configs.md
+├── docs/
+│ └── REPORT.md
+└── data/
+└── sample_results.csv
 
 
 ## License
